@@ -28,7 +28,11 @@ input{
     border-top-left-radius: 15px;
     width: 200px;
     height: 45px;
+    
 }
 img {
-    max-width:15%;
+    max-width:15%;    
+}
+img{
+    max-width: 25%;
 }
