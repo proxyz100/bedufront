@@ -1,5 +1,5 @@
 body {
-    background-color:#fffb7f;
+    background-color:#faf8f9;
 }
 
 h1{
@@ -16,7 +16,19 @@ p{
 button{
     color: #fff;
     background-color: #025157;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100px;
+    height: 50px;
 }
-img{
-    size:0mm;
+
+input{
+    background-color: #ffffff;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 200px;
+    height: 45px;
+}
+img {
+    max-width:15%;
 }
