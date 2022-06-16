@@ -85,7 +85,7 @@ li{
   }
 
   .actions > *{
-    margin 0 10px; /*mal no la  puse*/
+    margin: 0 10px; /*mal no la  puse*/
   }
 
 .actions > button { /*si*/
