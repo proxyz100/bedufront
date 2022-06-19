@@ -6,12 +6,14 @@ h1{
   color:#46484c;
   text-align: center;
   font-family: 'Alegreya', serif;
+  font-size: 85px;
+  font-style: bold; /*extra*/
   
 }
 
 p{
   color:#8b8b8bcc;
-  font-family: verdana;
+  font-family: 'Assistant', sans-serif; /*estaba verdana, cambié para postwork*/
   font-size: 20px;
 }
 
@@ -98,4 +100,14 @@ li{
 .main{
   margin-top: 140px;
   text-align: center;
+}
+
+.abajo > h1 {
+  font-family:'Lucida Sans';
+font-size: 25px; }
+
+.flex-container{
+  display:flex;
+  flex-direction: column;
+  align-content: space-between;
 }
