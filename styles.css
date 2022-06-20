@@ -3,12 +3,11 @@ body {
 }
 
 h1{
-  color:#46484c;
+  color:#025157;
   text-align: center;
   font-family: 'Alegreya', serif;
-  font-size: 85px;
+  /*font-size: 85px;*/
   font-style: bold; /*extra*/
-  
 }
 
 p{
@@ -20,15 +19,8 @@ p{
 button{
   color: #fff;
   background-color: #025157;
-  
-}
-/*input{  ////////// lo habiamos puesto antes
-  background-color: #ffffff;
-}
-*/
-
-.main > img {
-  max-width:15%; /*es la imagen capterra*/   
+  height: 40px;
+  border-radius: 0 10% 10% 0;
 }
 
 .header{
@@ -38,15 +30,19 @@ button{
   margin-right: 20px;*/
   font-size: 0;
   font-family: sans-serif; /*esta se la habia puesto a nav y era a todos*/
-
 }
 
+.fixed-header{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+background-color:  #fffbf7;
+}
 
 li{
   display: inline;
   margin: 0 25px 0; /*me faltaron los valores 0*/
-  color: #025157;  /*podía ir aquío o en navbar*/
-  
 }
 
 .header > * {
@@ -55,7 +51,20 @@ li{
   line-height: 45px;
   height: 100%;
   vertical-align: middle;
-  }
+}
+
+input{  
+  background-color: #ffffff;
+  height: 35px;
+  border-radius: 8% 0 0 8%;
+
+}
+
+
+.main > img {
+  max-width:15%; /*es la imagen capterra*/   
+}
+ 
 
 .logo {
   width: 15%;
@@ -66,13 +75,13 @@ li{
 }
 
 .navbar {
-  width: 70%;
+  width: 60%;
   text-align: center;
   font-weight: 500;
-  font-size: 16px; /*yo le agregué esto*/
+  /*font-size: 16px; /*yo le agregué esto*/
   font-weight: bold; /* extra*/
   /*height: 45px;/*!ya etsaba en header con line-height!!!*/
-  }
+  color: #025157;  /*podía ir aquío o en li*/}
 
 .actions {
   width: 15%;
@@ -102,12 +111,43 @@ li{
   text-align: center;
 }
 
-.abajo > h1 {
-  font-family:'Lucida Sans';
-font-size: 25px; }
-
-.flex-container{
-  display:flex;
-  flex-direction: column;
-  align-content: space-between;
+.publicidad{
+  margin-left: 30px;
 }
+.publicidad  h3 {
+  font-family:'Alegreya', serif;
+   color: #025157;
+   /*font-size: 40px;
+   line-height: 48px;
+*/
+  
+ }
+.publicidad > p {
+color: #343434;
+}
+
+
+.promo{
+  display: flex;
+  width: 70%;
+  align-items: center;
+  margin:100px auto;
+}
+
+iframe {
+  display: flex;
+  margin:auto;
+}
+.explicacionvideo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.explicacionvideo  img {
+  width: 120px;
+  margin-top: 10px;
+  
+}
+

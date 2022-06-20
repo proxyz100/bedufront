@@ -19,6 +19,7 @@
 </head>
 
 <body>
+  <section class="fixed-header">
   <header class="header">
     <!-- Regresar página principal -->
     <a href="/" class="logo">
@@ -42,6 +43,7 @@
       <button>Start free trial</button>
     </div>
   </header>
+</section>
 
   <section class="main">
     <h1>Build your blog. Build your busines</h1>
@@ -53,39 +55,61 @@
       <button type="submit">
         Try it now &rarr;
       </button>
-    
     </form>
-
+  
     <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="Imagen capterra">
     <img src="https://assets.bedu.org/contents/TECM0017FRFUV2_Fronted_fundamentals_V2/TECM0017FRFUV2_S1_3_1.png"
       alt="imagen de matcha">
   </section>
   
-  <section >
-    <article class="flex-container">
-     <video width="200" height="100" controls
+<section class="promo">
+  <article class="explicacionvideo">
+   <video  controls width="400" height="200"
     poster = "https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
-    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4" type="video/mp4">
-      </video>
-  <img scr="https://images.vexels.com/media/users/3/206269/isolated/preview/5bf110f14d50531aaca26c251c3441aa-doodle-de-flecha-vertical.png">
- 
-</article>
+   >  
+    <source
+    type="video/mp4"
+    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+    >
+    <source
+    type="video/webm"
+    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
+    >
+   </video>
+  
+   <img scr=https://images.vexels.com/media/users/3/206269/isolated/preview/5bf110f14d50531aaca26c251c3441aa-doodle-de-flecha-vertical.png 
+    alt="See how it works">
 
-  <article class="abajo">
-    <h1> Publish to your blog in minutes, not hours.</h1>
-    <p>
-      Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don’t have hours to create content that may or may not work. With Matcha, instantly publish from our library of 10,000+ professionally written articles and build your email list faster with our powerful conversion tool.
-    </p>
   </article>
-  
 
-  
-  <br/>
-  <br/>
-  <br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gwEq0-ACUr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"    
+  <article class="publicidad">
+    <!-- este titulo más chico -->
+    <h3> Publish to your blog in minutes, not hours.</h3> 
+    <p>
+      Your blog is your most powerful asset to build, engage, 
+      and retain a loyal audience. But you don’t have hours to 
+      create content that may or may not work. With Matcha,
+      instantly publish from our library of 10,000+ professionally 
+      written articles and build your email list faster with our powerful conversion tool.
+    </p>
+    <form>
+      <p>Start publishing today:</p>
+      <div> <!--me faltó poner-->
+      <input type="text"  placeholder="Enter email" /> <!-- yo tenia email en input y sin place..-->
+      <button type="submit" > <!--no lo pusieron el type-->
+        Start my trial
+      </button>
+    </div>
+    </form>
+  </article>
 
+   
 </section>
-</body>
 
+<br/>
+  <br/>
+  <br/>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gwEq0-ACUr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"    
+  
+</body>
 </html>
