@@ -57,7 +57,6 @@ input{
   background-color: #ffffff;
   height: 35px;
   border-radius: 8% 0 0 8%;
-
 }
 
 
@@ -81,7 +80,8 @@ input{
   /*font-size: 16px; /*yo le agregué esto*/
   font-weight: bold; /* extra*/
   /*height: 45px;/*!ya etsaba en header con line-height!!!*/
-  color: #025157;  /*podía ir aquío o en li*/}
+  color: #025157;  /*podía ir aquío o en li*/
+}
 
 .actions {
   width: 15%;
@@ -93,11 +93,11 @@ input{
 
 .actions > a { /*si*/
   color: #67b54b;/*si*/
-  }
+}
 
-  .actions > *{
+.actions > *{
     margin: 0 10px; /*mal no la  puse*/
-  }
+}
 
 .actions > button { /*si*/
   color: #fff; /*si*/
@@ -106,6 +106,7 @@ input{
   padding: 12px 14px;/* me falto no entendi qué era el relleno*/
   border-radius: 5px; /*si*/
 }
+
 .main{
   margin-top: 140px;
   text-align: center;
@@ -114,18 +115,17 @@ input{
 .publicidad{
   margin-left: 30px;
 }
+
 .publicidad  h3 {
   font-family:'Alegreya', serif;
    color: #025157;
    /*font-size: 40px;
-   line-height: 48px;
-*/
-  
+   line-height: 48px;*/
  }
+
 .publicidad > p {
 color: #343434;
 }
-
 
 .promo{
   display: flex;
@@ -138,16 +138,147 @@ iframe {
   display: flex;
   margin:auto;
 }
+
 .explicacionvideo{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-
 .explicacionvideo  img {
   width: 120px;
   margin-top: 10px;
+}
+
+/*grid-template-columns: repeat (2,1fr);
+grid-template-rows: repeat (2, 1fr); */
+
+.features {
+display: grid;
+background-color: #025157;
+height:900px;
+grid-template-columns: repeat (2, 1fr);
+grid-template-rows: (2, 1fr);
+grid-template-areas: 
+"box1 box2"
+"box3 box4";
+align-content: center;
+}
+
+
+
+.box1 .box2 .box3 .box4 *>h2{
+  font-size: 19px;
+  color: #343434;
+    margin-bottom: 20px;
+}
+
+
+.box1 {
+margin: 5% 2% 2% 20%;
+background-color: #fff;
+height: 330px;
+grid-area: box1;
+border-radius: 5px;
+}
+
+.features *>a{
+  color: #67b54b;
+}
+
+.box2 {
+margin: 5% 20% 2% 2%;
+background-color: #fff;
+grid-area: box2;
+height: 330px; 
+border-radius: 5px;
+}
+
+.box3 {
+margin: 2% 2% 5% 20%;
+background-color: #fff;
+grid-area: box3;
+height: 330px;  
+border-radius: 5px;
+}
+  
+
+.box4 {
+margin: 2% 20% 5% 2%;
+background-color: #fff;
+grid-area: box4;
+height: 330px;  
+border-radius: 5px;
+}
+
+
+.growing {
+  display: flex;
+  background-color: #a1d683;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5% 15%;
+}
+
+.growing {
+  padding-right: 100px;
+  /*
+  margin-left: 12%;
+  margin-right: 3%;
+  margin-top: 10%;
+*/}
+.grow-izq h1 {
+  font-size: 51px;
+  font-style: bold;
+  color: #025157;
+  font-family: "Alegreya", serif;
+text-align: left;
+
+
+} 
+.grow-izq p{
+  color: #343434;
+  font-size: 20px;
+}
+
+.grow-izq img {
+  width: 500px;
+  max-width: 100%;
+}
+.grow-der {
+display: flex;
+flex-direction: column;
+  margin-right: 15%;
+  margin-left: 5%;
+  background-color: #fff;
+
+  padding: 1px 2px 10px 2px;
+}
+
+
+.top {
+    width: 100%;
+    max-height: 200px;
+}
+
+
+.mambe{
+  width: 20%;
   
 }
 
+
+.grow-der > button {
+  align-content: center;
+padding: 12px 20px;
+display: block;
+margin-left: 0;
+width: 100%;
+}
+
+.grow-der h3{
+  font-family:'Alegreya', serif;
+   color: #025157;
+   font-size:medium;;
+
+}
