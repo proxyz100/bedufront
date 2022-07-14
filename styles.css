@@ -138,8 +138,8 @@ input {
 }
 
 
-.texto-boton:hoover {
-  background-color: rgb(255, 38, 0);
+.texto-boton:hover {
+  background-color: red;
 }
 
 
